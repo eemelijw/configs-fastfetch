@@ -22,4 +22,4 @@ fi
 mv "$tmp" "$CONFIG_FILE"
 
 echo "Minima configuration installed!"
-rm -- "$0"
+rm -f -- "${BASH_SOURCE[0]}"
