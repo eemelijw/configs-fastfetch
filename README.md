@@ -6,7 +6,7 @@ A simple and minimal configuration for fastfetch, designed to occupy only a smal
 
 <img src=Minima/fastfetch-Minima-dark.png width = 400, height = 120><img src=Minima/fastfetch-Minima-pink.png width = 400, height = 120>
 
-*Preview images were taken on Arch Linux, but the minimal logo should work on other distros too.*
+###### Preview images were taken on Arch Linux, but the minimal logo should work on other distros too.
 
 ## Installation
 ### Automatic installation
@@ -14,6 +14,7 @@ Minima:
 ```bash
 curl -fLO https://raw.githubusercontent.com/eemelijw/configs-fastfetch/main/Minima/install-Minima.sh; bash install-Minima.sh
 ```
+###### The automatic installer creates a backup of the current configuration in use when it installs another configuration. The installer deletes itself after installation.
 
 ---
 ### Manual installation
