@@ -12,7 +12,7 @@ A simple and minimal configuration for fastfetch, designed to occupy only a smal
 ### Automatic installation
 Minima:
 ```bash
-curl -fLO https://raw.githubusercontent.com/eemelijw/configs-fastfetch/main/Minima/install.sh; bash install.sh
+curl -fLO https://raw.githubusercontent.com/eemelijw/configs-fastfetch/main/Minima/install-Minima.sh; bash install-Minima.sh
 ```
 
 ---
