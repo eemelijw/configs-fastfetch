@@ -22,4 +22,5 @@ fi
 mv "$tmp" "$CONFIG_FILE"
 
 echo "Minima configuration installed!"
+echo "Deleting installer..."
 rm -f -- "${BASH_SOURCE[0]}"
