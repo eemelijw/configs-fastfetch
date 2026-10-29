@@ -2,14 +2,14 @@
   "logo": {
     "type": "small",
     "padding": {
-    "top": 1,
-    "left": 2,
-    "right": 2,
-    "bottom": 1
+	    "top": 1,
+	    "left": 2,
+	    "right": 2,
+	    "bottom": 1
     },
     "color": {
-      "1": "black",
-      "2": "black"
+	    "1": "black",
+	    "2": "black"
     }
   },
   "display": {
@@ -17,11 +17,11 @@
     "color": {
       "keys": "black",
       "title": "black",
-},
-    "percent": {
-        "type": 1
-}
-},
+		},
+		"percent": {
+			"type": 1
+		}
+	},
   "modules": [
     "break",
     "title",
