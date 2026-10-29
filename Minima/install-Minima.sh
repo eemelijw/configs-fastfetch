@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 set -euo pipefail
 
 CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch"
@@ -21,3 +22,4 @@ fi
 mv "$tmp" "$CONFIG_FILE"
 
 echo "Minima configuration installed!"
+rm -- "$0"
