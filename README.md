@@ -9,6 +9,14 @@ A simple and minimal configuration for fastfetch, designed to occupy only a smal
 *Preview images were taken on Arch Linux, but the minimal logo should work on other distros too.*
 
 ## Installation
+### Automatic installation
+Minima:
+```bash
+curl -fLO https://raw.githubusercontent.com/eemelijw/configs-fastfetch/main/Minima/install.sh; bash install.sh
+```
+
+---
+### Manual installation
 **1.** Download the `config.jsonc` file you want to use.
 
 **2.** Locate the possible directories for fastfetch configuration files with:
