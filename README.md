@@ -11,8 +11,8 @@ A simple and minimal configuration for fastfetch, designed to occupy only a smal
 ## Installation
 ### Automatic installation
 Minima:
-```bash
-curl -fLO https://raw.githubusercontent.com/eemelijw/configs-fastfetch/main/Minima/install-Minima.sh; bash install-Minima.sh
+```sh
+curl -fLO https://raw.githubusercontent.com/eemelijw/configs-fastfetch/main/Minima/install-Minima.sh; sh install-Minima.sh
 ```
 > The automatic installer creates a backup of the current fastfetch configuration in use when it installs another configuration. The installer deletes itself after installation. Backups and configurations made by the installer are located in `~/.config/fastfetch/`
 
