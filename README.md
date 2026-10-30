@@ -20,16 +20,13 @@ curl -fLO https://raw.githubusercontent.com/eemelijw/configs-fastfetch/main/Mini
 ### Manual installation
 **1.** Download the `config.jsonc` file you want to use.
 
-**2.** Place the `config.jsonc` file to directory `~/.config/fastfetch/config.jsonc`.
+**2.** Move the `config.jsonc` file to directory `~/.config/fastfetch/config.jsonc`.
 
-> `fastfetch --list-config-paths` can be used to locate all possible directories for fastfetch configuration files.
+> `fastfetch --list-config-paths` can be used to locate optional directories for fastfetch configuration files.
 
 **3.** Place the `config.jsonc` file in one of those directories.
 
-**4.** You *might* need to specify the location of the configuration file for fastfetch with:
-```bash
-fastfetch -c /your/path/to/config.jsonc
-```
+> You *might* need to specify the location of the configuration file for fastfetch with `fastfetch -c /your/path/to/config.jsonc`.
 
 ## Customization
 Fastfetch configuration files are easy to customize. You just need to locate the `config.jsonc` file and edit it.
