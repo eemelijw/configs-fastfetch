@@ -1,5 +1,5 @@
-#!/usr/bin/env bash
-set -euo pipefail
+#!/bin/sh
+set -eu
 
 CONFIG_DIR="${XDG_CONFIG_HOME:-$HOME/.config}/fastfetch"
 CONFIG_FILE="$CONFIG_DIR/config.jsonc"
@@ -8,8 +8,8 @@ URL="https://raw.githubusercontent.com/eemelijw/configs-fastfetch/main/Minima/co
 
 mkdir -p "$CONFIG_DIR"
 
-tmp="$(mktemp)"
-trap 'rm -f "$tmp"' EXIT
+tmp=$(mktemp)
+trap 'rm -f "$tmp"' EXIT HUP INT TERM
 
 curl -fL "$URL" -o "$tmp"
 
@@ -23,4 +23,5 @@ mv "$tmp" "$CONFIG_FILE"
 
 echo "Minima configuration installed!"
 echo "Deleting installer..."
-rm -f -- "${BASH_SOURCE[0]}"
+
+rm -f -- "$0"
